@@ -41,8 +41,7 @@ body {
 }
 
 .main-info, .other-data {
- 
-  
+ height: 100%; 
 }
 
 .profile-picture, .personal-data {
@@ -75,29 +74,43 @@ img:hover {
 
 .personal-data {
  width: 550px;
- height: auto;
  text-align: center;
+ padding-top: 5px;
+ padding-bottom: 10px;
 }
 
 .social-media, .about {
-  width: 100%;
-  text-align: center;
+ width: 100%;
+ text-align: center;
 }
 
 .social-media {
-  
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+
+.icons {
+ padding-left: 7px;
+ padding-right: 7px;
+}
+
+.icons:hover {
+ color: white;
 }
 
 .about {
-    
+ padding-bottom: 10px;
 }
 
 h2 {
-  font-size: 2.0vw;
+ font-size: 2.0vw;
+ font-family: "Open Sans";
+ padding-bottom: 5px;
 }
 
 p {
-  font-size: 1.5vw;
+ font-size: 1.6vw;
+ font-family: "PT Sans";
 }
 
 ul {
