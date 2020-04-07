@@ -52,8 +52,25 @@ body {
 
 .profile-picture {
  height: auto;
+ width: 105px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+}
+
+img {
  width: 110px;
- 
+ height: 90px;
+ border-radius: 5px;
+ border: 2px solid black;
+ transition-property: all;
+ transition-delay: 0.5s;
+ transition-duration: 1s;
+ transition-timing-function: ease-in-out;
+}
+
+img:hover {
+ width: 130px;
+ height: 110px;
 }
 
 .personal-data {
@@ -76,11 +93,11 @@ body {
 }
 
 h2 {
-  font-size: 2.3vw;
+  font-size: 2.0vw;
 }
 
 p {
-  font-size: 1.7vw;
+  font-size: 1.5vw;
 }
 
 ul {
